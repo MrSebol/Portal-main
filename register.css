@@ -1,0 +1,38 @@
+#registerForm {
+    width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+#registerForm h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#registerForm label {
+    font-weight: bold;
+}
+
+#registerForm input[type="email"],
+#registerForm input[type="password"],
+#registerForm input[type="text"],
+#registerForm input[type="submit"] {
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#registerForm input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+#registerForm input[type="submit"]:hover {
+    background-color: #45a049;
+}

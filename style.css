@@ -1,0 +1,43 @@
+#loginForm {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#loginForm h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#loginForm label {
+    font-weight: bold;
+}
+
+#loginForm input[type="email"],
+#loginForm input[type="password"] {
+    width: 95%;
+    margin-bottom: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#loginForm input[type="submit"] {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+#loginForm input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+}
